@@ -35,21 +35,49 @@ export default class LandingPage extends React.Component {
                           </div>
                         </div>
                       </div>
-                      <a href="https://www.netflix.com/login" class="authLinks redButton" data-uia="header-login-link">Entrar</a>
-                    </div>
-                  </div>
-                  <div class="our-story-cards" data-uia-our-story="our-story-cards">
-                    <div class="our-story-card hero-card hero_fuji vlv" data-uia-our-story="hero_fuji" data-uia="our-story-card">
-                      <div class="our-story-card-background">
-                        <div class="concord-img-wrapper" data-uia="concord-img-wrapper" style={{ height: "703px" }}>
-                          <img class="concord-img vlv-creative" src="./NetflixFiles_files/BR-pt-20210322-popsignuptwoweeks-
-                              perspective_alpha_website_small.jpg" srcset="https://assets.nflxext.com/ffe/siteui/vlv3/92bb3a0b-7e91-40a0-b27b-f2c3ac9ef6e4/b21e3ad9-aa05-
-                              4122-b6a8-977eb91d5657/BR-pt-20210322-popsignuptwoweeks-perspective_alpha_website_small.jpg 1000w, 
-                              https://assets.nflxext.com/ffe/siteui/vlv3/92bb3a0b-7e91-40a0-b27b-f2c3ac9ef6e4/b21e3ad9-aa05-4122-b6a8-977eb91d5657/BR-pt-
-                              20210322-popsignuptwoweeks-perspective_alpha_website_medium.jpg 1500w, 
-                              https://assets.nflxext.com/ffe/siteui/vlv3/92bb3a0b-7e91-40a0-b27b-f2c3ac9ef6e4/b21e3ad9-aa05-4122-b6a8-977eb91d5657/BR-pt-
-                              20210322-popsignuptwoweeks-perspective_alpha_website_large.jpg 1800w" alt="" />
-                          <div class="concord-img-gradient"></div>
+                      <div class="our-story-cards" data-uia-our-story="our-story-cards">
+                        <div class="our-story-card hero-card hero_fuji vlv" data-uia-our-story="hero_fuji" data-uia="our-story-card">
+                          <div class="our-story-card-background">
+                            <div class="concord-img-wrapper" data-uia="concord-img-wrapper" style={{ height: "703px" }}>
+                              <img class="concord-img vlv-creative" src="../images/default_bg.jpg" alt="" />
+                              <div class="concord-img-gradient"></div>
+                            </div>
+                          </div>
+                          <div class="our-story-card-text">
+                            <h1 id="" class="our-story-card-title" data-uia="hero-title">Filmes, séries e muito mais. Sem limites. </h1>
+                            <h2 id="" class="our-story-card-subtitle" data-uia="our-story-card-subtitle">Assista onde quiser. Cancele quando quiser.</h2>
+                            <form class="cta-form email-form" data-uia="email-form" method="GET">
+                              <h3 class="email-form-title">Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
+                              <div class="email-form-lockup">
+                                <ul class="simpleForm structural ui-grid">
+                                  <li data-uia="field-email+wrapper" class="nfFormSpace field-email">
+                                    <div data-uia="field-email+container" class="nfInput nfInputResponsive">
+                                      <div class="nfInputPlacement">
+                                        <label class="input_id" placeholder="email">
+                                          <input type="email" data-uia="field-email" name="email" class="nfTextField" id="id_email_hero_fuji"
+                                            value="" tabindex="0" autocomplete="email" maxlength="50" minlength="5" dir="" />
+                                          <label for="id_email_hero_fuji" class="placeLabel">Email</label>
+                                        </label>
+                                      </div>
+                                    </div>
+                                  </li>
+                                </ul>
+                                <div class="our-story-cta-container cta-link-wrapper">
+                                  <button class="btn btn-red nmhp-cta nmhp-cta-extra-large btn-none btn-custom" type="submit" autocomplete="off"
+                                    tabindex="0" role="link" data-uia="our-story-cta-hero_fuji">
+                                    <span id="" class="cta-btn-txt" data-uia="">Vamos lá</span>
+                                    <span id="" class="chevron-right-arrow" data-uia="">
+                                      <svg viewBox="0 0 6 12" xmlns="http://www.w3.org/2000/svg"><desc>chevron</desc>
+                                        <path d="M.61 1.312l.78-.624L5.64 6l-4.25 5.312-.78-.624L4.36 6z" fill="none" fill-rule="evenodd"></path>
+                                      </svg>
+                                    </span>
+                                  </button>
+                                </div>
+                              </div>
+                            </form>
+                            <h3 id="" class="our-story-card-disclaimer" data-uia="our-story-card-disclaimer"></h3>
+                          </div>
+                          <div class="center-pixel" style={{ position: "absolute" }}></div>
                         </div>
                       </div>
                       <div class="our-story-card-text">
