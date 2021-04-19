@@ -8,23 +8,25 @@ import Catalog from './components/global/Catalog';
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <div className="content">
-          <Switch>
-            <Route exact path="/">
-              <LandingPage></LandingPage>
-            </Route>
-            <Route path="/browse">
-              <Navbar />
-              <div className="content">
-                <Catalog></Catalog>
-              </div>
-            </Route>
-          </Switch>
+    <div id="appMountPoint">
+      <Router>
+        <div className="App">
+          <div className="content">
+            <Switch>
+              <Route exact path="/">
+                <LandingPage></LandingPage>
+              </Route>
+              <Route path="/browse">
+                <Navbar />
+                <div className="content">
+                  <Catalog></Catalog>
+                </div>
+              </Route>
+            </Switch>
+          </div>
         </div>
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }
 

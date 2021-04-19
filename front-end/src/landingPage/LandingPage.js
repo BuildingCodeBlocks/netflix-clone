@@ -1,10 +1,8 @@
 import React from 'react';
-import '../components/styles/global.scss';
 
 export default class LandingPage extends React.Component {
   render() {
-    return (
-      <div id="appMountPoint">
+    return (      
         <div className="basicLayout">
           <div className="netflix-sans-font-loaded">
             <div className="our-story-desktop-framework">
@@ -383,7 +381,6 @@ export default class LandingPage extends React.Component {
             </div>
           </div>
         </div>
-      </div>
     )
   }
 }

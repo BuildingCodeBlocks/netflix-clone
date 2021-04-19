@@ -1,7 +1,7 @@
 const Catalog = () => {
     return (
         <div>
-            <h2>catalog</h2>
+            <h2>Aqui aparece o catálogo principal</h2>
         </div>
     );
 }
