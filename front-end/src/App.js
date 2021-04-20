@@ -4,7 +4,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import LandingPage from './landingPage/LandingPage';
 import Navbar from './components/global/Navbar';
-import Catalog from './components/global/Catalog';
+import Catalog from './components/catalog/Catalog';
 
 function App() {
   return (
