@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import LandingPage from './landingPage/LandingPage';
 import Navbar from './components/global/Navbar';
 import Catalog from './components/global/Catalog';
+import Login from './components/login/login';
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
             <Route exact path="/">
               <LandingPage></LandingPage>
             </Route>
+            <Route exact path="/login">
+              <Login></Login>
+            </Route>            
             <Route path="/browse">
               <Navbar />
               <div className="content">
