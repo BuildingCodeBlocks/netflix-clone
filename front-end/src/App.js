@@ -15,6 +15,9 @@ function App() {
             <Route exact path="/">
               <LandingPage></LandingPage>
             </Route>
+            <Route exact path="/login">
+              <LandingPage></LandingPage>
+            </Route>            
             <Route path="/browse">
               <Navbar />
               <div className="content">
